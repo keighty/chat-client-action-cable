@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Following this awesome tutorial on how to configure actionCable for websocket communication: https://dev.to/timnans/simple-rails-6-chat-application-with-action-cable-1b6m
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Checkout these files for the changes necessary:
+app/views/chats/create.js.erb
+app/channels/room_channel.rb
+app/javascript/channels/room_channel.js
+app/views/chats/_form.html.erb
+config/routes.rb
+app/controllers/chats_controller.rb
+app/views/chats/new.html.erb
